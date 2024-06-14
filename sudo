@@ -1,0 +1,24 @@
+Hit:1 http://mirrors.linode.com/ubuntu bionic InRelease
+Get:2 http://mirrors.linode.com/ubuntu bionic-updates InRelease [88.7 kB]
+Get:3 http://mirrors.linode.com/ubuntu bionic-backports InRelease [74.6 kB]
+Get:4 https://deb.nodesource.com/node_10.x bionic InRelease [4,584 B]
+Get:5 http://mirrors.linode.com/ubuntu bionic-updates/main i386 Packages [1,210 kB]
+Get:6 http://mirrors.linode.com/ubuntu bionic-updates/main amd64 Packages [1,862 kB]
+Hit:7 http://ppa.launchpad.net/ondrej/php/ubuntu bionic InRelease
+Get:8 http://mirrors.linode.com/ubuntu bionic-updates/main Translation-en [387 kB]
+Get:9 http://mirrors.linode.com/ubuntu bionic-updates/restricted amd64 Packages [243 kB]
+Get:10 http://mirrors.linode.com/ubuntu bionic-updates/restricted Translation-en [32.9 kB]
+Get:11 http://mirrors.linode.com/ubuntu bionic-updates/universe i386 Packages [1,558 kB]
+Get:12 http://mirrors.linode.com/ubuntu bionic-updates/universe amd64 Packages [1,710 kB]
+Get:13 http://mirrors.linode.com/ubuntu bionic-updates/universe Translation-en [361 kB]
+Get:14 http://mirrors.linode.com/ubuntu bionic-updates/multiverse i386 Packages [14.3 kB]
+Get:15 http://mirrors.linode.com/ubuntu bionic-updates/multiverse amd64 Packages [31.8 kB]
+Get:16 http://mirrors.linode.com/ubuntu bionic-updates/multiverse Translation-en [7,300 B]
+Get:17 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+Get:18 https://deb.nodesource.com/node_10.x bionic/main amd64 Packages [766 B]
+Get:19 http://security.ubuntu.com/ubuntu bionic-security/main amd64 Packages [1,513 kB]
+Get:20 http://security.ubuntu.com/ubuntu bionic-security/main i386 Packages [902 kB]
+Get:21 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 Packages [1,101 kB]
+Get:22 http://security.ubuntu.com/ubuntu bionic-security/universe i386 Packages [973 kB]
+Fetched 12.2 MB in 4s (2,945 kB/s)
+Reading package lists...

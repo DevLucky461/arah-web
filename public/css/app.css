@@ -1,0 +1,1356 @@
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+/*added center*/
+.center {
+    text-align: center;
+}
+/*added gradient bg*/
+.white-green-gradient {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(98, 207, 158, 0.15));
+}
+.white-green-gradient-2 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(164, 219, 199, 1));
+}
+.grey-green-gradient {
+    background-image: linear-gradient(to bottom, rgba(232, 238, 237, 1), rgba(164, 219, 199, 1));
+}
+/*******************************************************************************************************/
+.green-bg{
+    background-color:#009A88;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+/*added top bg cover*/
+.top-bg-cover {
+    background-image: url(../img/BG_Top.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 850px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+/*added welcome img*/
+.welcome-to-arah-bg {
+    background-image: url(../img/Welcome.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 600px;
+    padding-top: 160px;
+    margin-top: -350px;
+    color: white;
+    position: relative;
+    top: 150px;
+}
+/**************************************************/
+/*added bg curve break point*/
+.curve-bg {
+    background-image: url(../img/BG_Curve1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 150px;
+    width: 100%;
+}
+.curve-bg-2 {
+    background-image: url(../img/BG_Curve2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 350px;
+    width: 100%;
+}
+/**************************************************/
+.green-btn{
+    background-color: #0c9;
+    padding: 10px 25px;
+    display: inline-flex;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 0px;
+}
+.green-text {
+    color: #00CC99 !important;
+}
+.grey-text{
+    color: #777;
+}
+.white-text {
+    color: white !important;
+}
+.lightgreen-text {
+    color: #ccffff !important;
+}
+.dark-green-text {
+    color: #30afaf !important;
+}
+/*added*/
+.nav-font-size {
+    font-size: 14px !important;
+    letter-spacing: 1px;
+}
+.navbar {
+    z-index:2;
+}
+.navbar-brand{
+    width:120px;
+}
+.nav-link{
+    font-size:18px;
+    font-weight: bold;
+    margin-left:10px;
+}
+.navbar-brand img{
+    width: 90px;
+    margin-top: 20px;
+}
+.clear-both{
+    clear:both;
+}
+.display-block{
+    display: block;
+}
+.overflow-auto{
+    overflow:auto;
+}
+.mb-0px{
+    margin-bottom:0px;
+}
+.mt-0px{
+    margin-top:0px;
+}
+.mt-20px{
+    margin-top: 20px;
+}
+.mt-40px{
+    margin-top: 40px;
+}
+.mb-40px{
+    margin-bottom: 40px;
+}
+.app-wrapper{
+    margin-bottom: 80px;
+}
+.mt-150px{
+    margin-top:150px;
+}
+.large-h1 {
+    font-size: 44px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin: 25px 10px 10px;
+}
+/*added large-h1 backup and edited above*/
+.large-h1-backup{
+    font-size:52px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 120px;
+}
+/*added new*/
+.large-h1-margin-top {
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 120px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+}
+/*added new*/
+.banner-h2 {
+    margin-left: 10px;
+}
+/*added new font*/
+.arah-font {
+    font-family: 'El Messiri';
+    font-size: 52px;
+}
+select.form-control{
+    border-radius: 10px;
+}
+.title-desc-white {
+    font-size: 20px;
+    line-height: initial;
+    color: white;
+    margin: 20px 10px;
+    word-spacing: 2px;
+}
+.title-desc-roadmap {
+    font-size: 20px;
+    line-height: initial;
+    font-weight: bold;
+    color: #33cc99;
+    margin: 20px 10px;
+    word-spacing: 2px;
+}
+.title-desc {
+    font-size: 20px;
+    line-height: initial;
+    font-weight: bold;
+    color: dimgray;
+    margin: 20px 10px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+/*added title desc backup and edited top*/
+.title-desc-backup {
+    font-size: 24px;
+    line-height: initial;
+}
+.smaller-desc {
+    color: #575757;
+    font-size: 18px;
+    line-height: initial;
+    height: 45px;
+    clear: both;
+    font-weight: bold;
+    margin: 10px;
+}
+/*added smaller desc backup and edited top*/
+.smaller-desc-backup {
+    font-size: 22px;
+    line-height: initial;
+    clear: both;
+}
+.large-h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px 15px;
+    color: dimgray;
+    height: 60px;
+}
+/*added large-h2 backup and edited above*/
+.large-h2-backup {
+    font-size: 52px;
+    font-weight: bold;
+}
+/*added arah app-box img and setting*/
+.app-box {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(220, 220, 220, 1));
+    margin: 20px 0px;
+    padding: 1px;
+    height: 360px;
+    /* border-radius */
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    /* box-shadow */
+    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+}
+/*added paragrah desc*/
+.app-box-desc {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 30px 20px 45px;
+    color: #575757;
+}
+/*added app-box row*/
+.app-box-row {
+    position: relative;
+    bottom: 100px;
+}
+/*added app-box img*/
+.app-box-img {
+    margin: 15px 5px 0px;
+}
+.app-box-h2 {
+    color: #575757;
+}
+/*added motto row 1*/
+.motto {
+    font-size: 20px;
+    line-height: initial;
+    font-weight: bold;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #ccffff;
+}
+/*reposition*/
+.chart-row-reposition {
+    margin-top: -300px;
+    position: relative;
+    z-index: 10;
+    top: 300px;
+    list-style-position: inside;
+}
+.subicons {
+    max-width: 33.33%;
+    float: left;
+}
+.coming-soon {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.divider {
+    background-image: url("/img/BG_Bottom.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    position: absolute;
+    height: 780px;
+    width: 100%;
+}
+/*add backup*/
+.divider-backup{
+    width: 100%;
+    color: white;
+}
+.white-bg{
+    background-color:white;
+}
+.social-wrapper img {
+    /* max-width:80px;
+    max-height:80px; */
+    width: 68px;
+    height: 68px;
+    margin: 75px 10px;
+}
+/*backup addded*/
+.backup-social-wrapper img{
+    max-width:36px;
+    max-height:36px;
+    margin: 0px 5px;
+}
+/*added new*/
+.brand-logo-wrapper img {
+    max-width: 150px;
+    max-height: 100%;
+    margin: 25px;
+}
+.copyright {
+    font-size: 20px;
+}
+.copyright a {
+    color: white;
+    text-decoration: none;
+}
+/*backup added*/
+.copyright-backup{
+    margin-top:20px;
+}
+.success{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px;
+    clear:both;
+}
+.alert{
+    padding: 0px;
+    color: rgb(200,50,50);
+    font-size: 20px;
+    clear:both;
+    font-weight: bold;
+}
+.dropdown-menu.show{
+    margin-left: 15px;
+}
+/**************************************************************/
+/*Alfred's footer*/
+.get-involved {
+    font-size: 50px;
+    margin-top: 240px;
+}
+
+.join-community {
+    background-image: url("/img/Botton_04.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: 100% 100%;
+    color: #009A88;
+    font-weight: bold;
+    width: 235px;
+    height: 80px;
+    padding-bottom: 12px;
+    border: none;
+}
+.join-community:hover {
+    color: white;
+}
+
+.join-community:focus {
+    outline: none;
+}
+.learn-how-to-build {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.arah-logo-footer {
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    left: 300px;
+    position: absolute;
+}
+.footer-curve {
+    position: relative;
+    bottom: 185px;
+}
+/**********************************************************/
+/*added btn border*/
+.btn-border-1 {
+    background-image: url(../img/Botton_06.png);
+    color: white;
+    font-weight: bold;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 200px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.btn-border-2 {
+    background-image: url(../img/Botton_01.png);
+    color: #00CC99;
+    font-weight: bold;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 200px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.btn-border-3 {
+    background-image: url(../img/Botton_03.png);
+    color: white;
+    font-weight: bold;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 160px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.btn-border-4 {
+    background-image: url(../img/Botton_04.png);
+    color: #30afaf;
+    font-weight: bold;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 160px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.btn-border-5 {
+    background-image: url(../img/Botton_05.png);
+    color: #30afaf;
+    font-weight: bold;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 200px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.btn-border-6 {
+    background-image: url(../img/Botton_07.png);
+    color: white;
+    font-weight: bold;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 210px;
+    font-size: 14px;
+}
+.btn-border-7 {
+    /* basic */
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(220, 220, 220, 1));
+    width: 600px;
+    min-height: 65px;
+    margin: 15px auto;
+    padding: 0px 40px;
+    color: #006666;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    z-index: 10;
+    /* border-radius */
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    /* box-shadow */
+    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+}
+.btn-border-nav {
+    /* basic */
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #30afaf;
+    position: relative;
+    top: 60px;
+    right: 20px;
+    /* border-radius */
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    /* box-shadow */
+    -webkit-box-shadow: rgba(0,0,0,0.4) 0px 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.4) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.4) 0 0 10px;
+}
+.btn-hide{
+
+}
+.btn-pos {
+    position: relative;
+}
+.btn-pos-2 {
+    position: relative;
+}
+.btn-pos-3 {
+    position: relative;
+}
+.nav-padding {
+    margin: 25px 5px 0px;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+.btn-hover-green:hover {
+    color: #006666;
+}
+.btn-hover-green:focus {
+    outline: none;
+}
+/**********************************************************/
+.btn-subscribe{
+    background-color: #009A88;
+    border-radius: 0px;
+    padding: 10px 40px;
+    border:0px;
+    float: left;
+}
+.white-circle{
+    background-color:white;
+    height: 800px;
+    width: 800px;
+    border-radius: 800px;
+    position: absolute;
+    top: -420px;
+    right: 50px;
+    z-index: 0;
+}
+/******************************************************************************/
+/*custom drop down*/
+.custom-popup h6 {
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.custom-popup p {
+    font-size: 18px;
+    color: #575757;
+    padding-bottom: 10px;
+}
+.popup-content {
+    display: none;
+}
+.caret {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border: 10px solid transparent;
+    float: right;
+    position: relative;
+    bottom: 45px;
+}
+.caret.down {
+    border-top-color: #006666;
+}
+.caret.up {
+    border-bottom-color: #006666;
+    position: relative;
+    bottom: 55px;
+    display: none;
+}
+/******************************************************************************/
+/*added roadmap-box img and setting*/
+.roadmap-box {
+    /* basic */
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(220, 220, 220, 1));
+    margin: 0px auto;
+    padding: 1px 0px;
+    height: 310px;
+    /* border-radius */
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    /* box-shadow */
+    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+}
+/*added roadmap desc*/
+.roadmap-box-desc {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 30px 10px 0px;
+    color: #575757;
+}
+/*added strect box*/
+.strect-box {
+    position: relative;
+    margin: 0px -60px;
+}
+/*added roadmap img*/
+.roadmap-img {
+    background-image: url(../img/Roadmap.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 70px;
+    margin: 25px 0px;
+}
+/*added arah coin new img and setting*/
+.arah-coin-new {
+    width: 550px;
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+}
+.arah-coin{
+    max-width:400px;
+    width: 100%;
+}
+/*added landing phone new img and setting*/
+.landing-phone-new {
+    width: 600px;
+    position: relative;
+    top: 100px;
+}
+/*added landing phone arah app img and setting*/
+.landing-phone-arah-app {
+    width: 600px;
+    position: relative;
+}
+.landing-phone{
+    width: 450px;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+}
+.about-phone{
+    position: absolute;
+    z-index: 1;
+    right: 120px;
+    width: 410px;
+    top: 85px;
+}
+.coin-row{
+    margin-top: 40px;
+}
+.coin-row .large-h2 {
+    margin-top: 18px;
+}
+.subscribe-form {
+    width: 100%;
+    background-color: #00CC99;
+    border-radius: 15px;
+    padding: 40px 30px;
+    text-align: center;
+    margin: 40px 0px;
+    position: relative;
+    z-index: 0;
+}
+.subscribe-title{
+    font-size: 36px; 
+    margin-bottom: 0px;
+    font-weight:bold;
+    line-height: 40px;
+}
+.subscribe-btn-wrapper{
+    max-width: 550px;
+    width: 100%;
+    overflow: auto;
+    margin:auto;
+}
+.subscribe-input{
+    padding: 10px 20px;
+    border: 0px;
+    width: calc(100% - 132px);
+    float: left;
+}
+.subscribe-desc{
+    font-size: 20px;
+}
+.about-white-circle{
+    top: -480px;
+    background-color:white;
+    height: 800px;
+    width: 800px;
+    border-radius: 800px;
+    position: absolute;
+    right: 85px;
+    z-index: 0;
+}
+.arah-white-circle{
+    top: -480px;
+    background-color:white;
+    height: 800px;
+    width: 800px;
+    border-radius: 800px;
+    position: absolute;
+    right: 85px;
+    z-index: 0;
+}
+.company-wrapper{
+    width: 23%;
+    float: left;
+    margin: 0px 1%;
+}
+.company-logo{
+    width: 100%;
+}
+.company-name{
+    color:white;
+    padding: 10px 0px 0px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+.company-location{
+    color:white;
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    text-align: center;
+}
+.navbar-nav .nav-link.lang-nav{
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+.arah-app-icons{
+    max-width: 16.66%;
+    float: left;
+    height: 183px;
+    width: 153px;
+    background-position: center;
+    background-size: 115%;
+    background-repeat: no-repeat;
+}
+.hall{
+    width:100%;
+}
+.arah-h2-title{
+    margin-top: 80px;
+}
+.coin-top-icons-wrapper{
+    float:left;
+}
+.coin-top-icons-wrapper .icons {
+    height: 149px;
+    width: 400px;
+    background-size: 100%;
+    background-position: center;
+    margin-top: -20px;
+    margin-left: -15px;
+    background-repeat: no-repeat;
+}
+.large-coin {
+    background-image: url("/img/large-coin.png");
+    height: 450px;
+    width: 450px;
+    background-size: 100%;
+    float: right;
+    background-repeat: no-repeat;
+}
+.coin-app{
+    background-image: url("/img/profile.png");
+    height: 653px;
+    width: 350px;
+    background-size: 105%;
+    float: left;
+    background-position: -15px top;
+    background-repeat: no-repeat;
+}
+.coin-text{
+    float: right;
+    width: calc( 100% - 350px );
+    padding-top: 40px;
+}
+.white-hr{
+    border-color:white;
+}
+.news-article img{
+    width: 100%;
+}
+.article-text {
+    background-color: white;
+    min-height: 75px;
+    padding: 10px 20px;
+    color: #00CC99;
+    font-weight: bold;
+    line-height: 18px;
+}
+.article-date {
+    background-color: white;
+    padding: 0px 20px 20px;
+    color: black;
+    font-size: 12px;
+}
+.news-article {
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.register-form input.form-control {
+    border: 2px solid #0c9;
+    height: unset;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.register-form .form-check {
+    float: left;
+    border: 2px solid #0c9;
+    padding: 20px 20px 20px 40px;
+    width: 40%;
+    box-sizing: border-box;
+    margin: 0px 5%;
+    border-radius: 15px;
+}
+.add-email {
+    background-color: transparent;
+    text-align: left;
+    color: white;
+    border: 2px solid #0c9;
+    padding: 10px 20px;
+    height: unset;
+    border-radius: 15px;
+}
+.height-verify{
+    height: calc(100vh - 340px);
+}
+.thank-you-register{
+    text-align: center;
+    margin-top:20%;
+}
+@media only screen and (min-width: 1800px) {
+    .about-white-circle{
+        right: 150px;
+    }
+    .white-circle{
+        right: 135px;
+    }
+    .arah-white-circle{
+        right: 150px;
+    }
+    .landing-phone{
+        right: 350px;
+    }
+    .about-phone{
+        right: 350px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    nav.navbar {
+        background-color: rgba(0, 0, 0, 0.7);
+        margin-left: -50px;
+        padding-left: 50px;
+        margin-right: -210px;
+    }
+    .green-bg{
+        background-size: 140% auto;
+        background-position-x: 70%;
+    }
+    .landing-phone{
+        right: 60px;
+    }
+    .white-circle,.about-white-circle{
+        right: -230px;
+    }
+    .arah-white-circle{
+        right: -230px;
+        top: -525px;
+    }
+    .nav-link{
+        color:white !important;
+    }
+    .navbar-nav .nav-link.lang-nav{
+        padding:0px;
+        border:0px;
+    }
+    .navbar-brand img{
+        position: relative;
+        right: 400px;
+        bottom: 10px;
+    }
+    .btn-border-nav{
+        right: 50px;
+        top: 40px;
+        z-index: 10;
+    }
+    .dropdown-menu.show{
+        margin-left: 0px;
+    }
+    .about-phone {
+        top: 100px;
+        width: 380px;
+        right: 40px;
+    }
+    .coin-row .large-h2 {
+        margin-top: 0px;
+    }
+    .company-mobile{
+        float: left;
+        width: 100%;
+    }
+    .company-wrapper{
+        width: 44%;
+        float: left;
+        margin: 0px 3% 20px;
+    }
+    .company-name, .company-location{
+        font-size:16px;
+    }
+    .hall{
+        margin-top: 50px;
+    }
+    .arah-h2-title{
+        margin-top: 20px;
+    }
+    .coin-top-icons-wrapper .icons{
+        width: 350px;
+        height: 135px;
+    }
+    .large-coin{
+        width: 400px;
+        height: 400px;
+    }
+    .coin-text{
+        padding-top:0px;
+    }
+    .coin-text .green-btn{
+        margin-bottom: 20px;
+    }
+    .large-h1 {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .large-h1-margin-top {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .banner-h2 {
+        text-align: center;
+    }
+    .motto {
+        text-align: center;
+    }
+    .btn-pos {
+        text-align: center;
+    }
+    .btn-pos-2 {
+        text-align: center;
+        width: 200px;
+        margin: auto;
+        top: 450px;
+    }
+    .btn-hide {
+        display: none;
+    }
+    .btn-border-2 {
+        position: relative;
+        top: 550px;
+    }
+    .top-bg-cover {
+        height: 1100px;
+    }
+    .landing-phone-new {
+        top: -50px;
+        left: 150px;
+    }
+    .title-desc {
+        text-align: center;
+        margin: 20px 50px;
+    }
+    .arah-coin-new {
+        bottom: 220px;
+        left: 180px;
+    }
+    .welcome-to-arah-bg {
+        background-size: 260% 100%;
+        height: 600px;
+        padding-top: 100px;
+        margin-left: -45px;
+        margin-right: -45px;
+        margin-top: -250px;
+        top: 150px;
+    }
+    .btn-pos-3 {
+        text-align: center;
+    }
+    .landing-phone-arah-app {
+        left: 170px;
+    }
+    .app-box {
+        margin: 20px 250px;
+        height: 320px;
+        text-align: center;
+    }
+    .chart-row-reposition {
+        top: 250px;
+        text-align: center;
+    }
+    .chart-row-reposition img{
+        width: 65%;
+    }
+    .roadmap-img{
+        display: none;
+    }
+    .strect-box{
+        margin: 0px auto;
+    }
+    .roadmap-box {
+        margin: 15px 250px;
+        text-align: center;
+    }
+    .title-desc-roadmap {
+        font-size: 42px;
+    }
+    .smaller-desc {
+        font-size:30px;
+        margin: 20px 70px;
+    }
+    .roadmap-box-desc {
+        font-size: 18px;
+        margin: 60px 40px 20px;
+    }
+    .brand-logo-wrapper {
+        margin: 0px 150px;
+    }
+    .arah-logo-footer{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .large-h1{
+        font-size: 48px;
+    }
+    .navbar-brand img {
+        right: 320px;
+    }
+    .btn-border-nav {
+        right: 100px;
+        top: 40px;
+    }
+    .landing-phone{
+        right: -20px;
+    }
+    .white-circle,.about-white-circle,.arah-white-circle{
+        right: -380px;
+    }
+    .about-phone {
+        top: 90px;
+        width: 270px;
+        right: 55px;
+    }
+    .subscribe-wrapper{
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+    .arah-app-icons{
+        max-width: 33.33%;
+        height: 227px;
+        width: 189px;
+    }
+    .coin-top-icons-wrapper .icons{
+        width: 280px;
+        height:115px;
+    }
+    .large-coin{
+        width:300px;
+        height:300px;
+    }
+    .coin-app{
+        width: 270px;
+        background-position:-15px bottom;
+    }
+    .coin-text{
+        width: calc(100% - 270px);
+    }
+    .banner-h2 {
+        margin: auto 120px;
+    }
+    .btn-pos {
+        bottom: 100px;
+    }
+    .btn-border-2 {
+        position: relative;
+        top: 550px;
+    }
+    .top-bg-cover {
+        height: 1000px;
+    }
+    .landing-phone-new {
+        left: 100px;
+        height: 100%;
+        width: 70%;
+    }
+    .title-desc {
+        margin: 50px 100px 25px;
+    }
+    .arah-coin-new {
+        left: 100px;
+        height: 100%;
+        width: 70%;
+    }
+    .btn-pos-2 {
+        top: 400px;
+    }
+    .welcome-to-arah-bg {
+        height: 680px;
+        margin-left: -35px;
+        margin-right: -35px;
+        padding-top: 150px;
+    }
+    .landing-phone-arah-app {
+        left: 100px;
+        height: 100%;
+        width: 80%;
+    }
+    .app-box-row {
+        bottom: 0px;
+    }
+    .app-box {
+        margin: 15px 100px;
+        height: 400px;
+    }
+    .app-box img {
+        height: 100%;
+        width: 20%;
+    }
+    .large-h2{
+        font-size: 32px;
+        margin: 10px 150px;
+        letter-spacing: 1px;
+    }
+    .app-box-desc {
+        font-size: 20px;
+        margin: 50px 110px 10px;
+    }
+    .chart-row-reposition {
+        top: 330px;
+    }
+    .chart-row-reposition img {
+        width: 85%;
+    }
+    .roadmap-box {
+        margin: 15px 100px;
+    }
+    .brand-logo-wrapper {
+        margin: 0px 20px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    *{
+        text-align: center;
+    }
+    .b{display:block;}
+    .green-bg{
+        background-image: unset;
+    }
+    .navbar-brand img {
+        right: 270px;
+        width: 70%;
+    }
+    .nav-padding {
+        padding-right: 120px;
+    }
+    .btn-border-nav {
+        right: 65px;
+        width: 110px;
+    }
+    .landing-phone,.about-phone {
+        display: none;
+    }
+    .white-circle,.about-white-circle,.arah-white-circle{
+        display: none;
+    }
+    .title-desc{
+        text-align: center;
+    }
+    .subscribe-input{
+        width: calc(100% - 90px);
+    }
+    .subscribe-title{
+        font-size: 26px;
+    }
+    .btn-subscribe{
+        padding: 10px 20px;
+    }
+    .coin-row{
+        margin-top:0px;
+    }
+    .coin-row .green-btn {
+        margin-right: 0px;
+    }
+    .arah-coin{
+        width: 70%;
+        margin: auto;
+        display: block;
+    }
+    .large-h1{
+        font-size:40px;
+        text-align: center;
+    }
+    .subscribe-wrapper{
+        flex: unset;
+        max-width: unset;
+    }
+    .arah-app-icons{
+        max-width:50%;
+    }
+    .coin-top-icons-wrapper{
+        float: unset;
+    }
+    .coin-top-icons-wrapper .icons{
+        margin: -20px auto;
+    }
+    .large-coin{
+        float: unset;
+        margin: 20px auto;
+    }
+    .coin-app{
+        width: 100%;
+        background-size: auto 100%;
+        background-position: center;
+        height: 550px;
+    }
+    .coin-text{
+        width: 100%;
+    }
+    .coin-text .green-btn{
+        margin-right:0px;
+    }
+    .banner-h2 {
+        margin: auto;
+        font-size: 30px;
+    }
+    .btn-pos {
+        bottom: 200px;
+    }
+    .btn-border-2 {
+        position: relative;
+        top: 550px;
+    }
+    .top-bg-cover {
+        height: 950px;
+    }
+    .landing-phone-new {
+        left: 0px;
+        width: 80%;
+    }
+    .title-desc {
+        margin: 50px 30px 25px;
+    }
+    .arah-coin-new {
+        left: 0px;
+        width: 80%;
+    }
+    .btn-pos-2 {
+        top: 300px;
+    }
+    .welcome-to-arah-bg {
+        height: 900px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-top: 200px;
+    }
+    .title-desc-white {
+        margin: 20px -10px;
+    }
+    .landing-phone-arah-app {
+        left: 0px;
+        width: 90%;
+    }
+    .app-box img {
+        height: 100%;
+        width: 40%;
+    }
+    .large-h2 {
+        font-size: 28px;
+        margin: 10px 20px;
+        letter-spacing: 1px;
+    }
+    .app-box-desc {
+        font-size: 18px;
+        margin: 50px 10px 10px;
+    }
+    .chart-row-reposition img {
+        width: 100%;
+    }
+    .roadmap-box {
+        margin: 15px 10px;
+    }
+    .title-desc-roadmap{
+        font-size: 32px;
+    }
+    .smaller-desc {
+        font-size: 24px;
+        margin: auto;
+    }
+    .roadmap-box-desc{
+        font-size: 16px;
+    }
+    .brand-logo-wrapper {
+        margin: 0px 20px;
+    }
+    .btn-border-7 {
+        width: 400px;
+    }
+    .custom-popup h6 {
+        line-height: 35px;
+        font-size: 18px;
+    }
+    .caret {
+        bottom: 30px;
+        left: 20px;
+    }
+    .caret.up {
+        bottom: 40px;
+    }
+    .social-wrapper{
+        margin: -40px 0;
+    }
+}
+/*coin*/
+#sugar_daddy{
+    width:100%;
+}

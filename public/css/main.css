@@ -1,0 +1,14 @@
+.border-wrapper{
+    padding: 10rem;
+}
+
+.title-wrapper{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.title{
+    font-size: 70px;
+    color: #0ecb98;
+    font-weight: bold;
+}
